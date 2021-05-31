@@ -80,6 +80,7 @@ function LandingPage2() {
       <section>
         <div className="content">
           <div className="bonobo-content-card">
+            <div className="menu-content">
             <div className="menu">
               <img className="logo" src={logo} alt="logo" />
               <span className="menuButton open" onClick={openMenu}>
@@ -180,7 +181,10 @@ function LandingPage2() {
                 </div></li>
               </ul>
             </div>
+            </div>
             <div className="col-md-9 float-left">
+            <div className="top-content">
+
               <div className="bonobo-heading" id="BONOBO">
                 <strong className="linear_gradient_font_color">WELCOME TO THE </strong>
                 <h1 className="linear_gradient_font_color"><span className="linear_gradient_font_color2">crypto</span> jungle</h1>
@@ -204,6 +208,7 @@ function LandingPage2() {
             <div className="col-md-3 float-left">
               <img className="bonobo" src={bonobo} alt="bonobo" />
             </div>
+          </div>
           </div>
         </div>
       </section>

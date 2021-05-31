@@ -52,8 +52,12 @@
   }
 }
 .menu {
+  width: 63.4vw;
+  position: fixed;
+  z-index: 3;
   height: 5.84vw;
   @media (max-width: 767px) {
+    width: calc(100vw - 40px);
     padding: 20px;
     height: 22.84vw;
   }
@@ -64,6 +68,13 @@
       float: left;
       width: 50vw;
     }
+  }
+  .top-content{
+    margin-top: 50px;
+  }
+  .menu-content{
+    background-color: #00A259;
+    width: 100vw;
   }
   .menutab {
     float: right;
